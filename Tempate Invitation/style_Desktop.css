@@ -1,0 +1,227 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Libre+Baskerville:wght@700&family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+/* ------ Nav Bar ------ */
+.navbar{
+  display: flex;
+  padding-top: 20px;
+  font-size: 15px;
+  justify-content: space-around;
+}
+
+nav p{
+  margin-right: 50px;
+  font-weight: 600;
+}
+
+nav ul{
+  display: flex;
+}
+
+ul li{
+  margin: 0 30px;
+  list-style-type: none;
+}
+
+li a{
+  text-decoration: none;
+  color: black;
+}
+
+
+.btn .login{
+  border: none;
+  background: none;
+  margin-right: 10px;
+}
+
+.btn .signup{
+  border: none;
+  background: black;
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+/* ------ Images ------ */
+.img{
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+  padding: 20px 100px;
+
+}
+
+.com1,
+.com2,
+.com3,
+.com4,
+.com5, 
+.com6{
+  width: 90px;
+  height: 30px;
+}
+
+/* ------ Section Generale Get Cash Rewards ------ */
+
+
+/* ------ 1- Images Left && Right ------ */
+.Cash_Rewads{
+  display: flex;
+  justify-content: space-between;
+  width: 100%;
+}
+
+.right img,
+.left img{
+width: 400px;
+padding: 10px 40px;
+}
+
+.left img{
+  margin-left: 40px;
+}
+
+.right img{
+  margin-right: 40px;
+
+}
+
+/* ------ 2- Content De Center Des Images ------ */
+
+.content .p{
+  text-align: center;
+  padding-top: 50px;
+  font-size: 25px;
+}
+
+.content .post,
+.earn,
+.grow{
+  padding-top: 50px;
+  font-size: 10px;
+}
+
+.grow p:first-child,
+.post p:first-child,
+.earn p:first-child{
+  font-size: 18px;
+}
+
+.icon1 ul{
+  border: 1px solid black;
+  display: flex;
+  color: black;
+}
+
+
+.grow p:last-child,
+.post p:last-child,
+.earn p:last-child{
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+/* ------ 3- Button ------ */
+.bot{
+  border: none;
+  background: rgb(249,160,36);
+  background: linear-gradient(90deg, rgb(248, 154, 22) 0%, rgb(150, 27, 231) 100%);
+  color: white;
+  padding: 10px;
+}
+
+.sbt{
+  text-align: center;
+  padding-top: 35px;
+}
+
+/* ------ Post Links ------ */
+.post_links{
+  display: flex;
+  background-color: #0A0A0A;
+  color: white;
+  height: 250px;
+  margin: 60px 70px;
+  padding: 1àpx;
+}
+
+.part1{
+  padding: 20px;
+}
+
+.title{
+  padding: 20px 0;
+}
+
+.title h1{
+  font-size: 27px;
+}
+
+.submit button:first-child{
+  background-color: white;
+  width: 200px;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+  margin-right: 5px;
+}
+
+.submit button:last-child{
+  background: rgb(249,160,36);
+  background: linear-gradient(90deg, rgb(248, 154, 22) 0%, rgb(150, 27, 231) 100%);
+  color: white;
+  width: 200px;
+  padding: 10px;
+  border-radius: 3px;
+  border: none;
+}
+
+.part2 img{
+  width: 550px;
+  margin-right: 20px;
+  transform: translateY(-50px);
+}
+
+/* ------ Grid De Images ------ */
+
+.grid{
+  display: grid;
+  grid-template-columns: 210px 210px 210px 210px ;
+  grid-gap: 70px;
+  margin-left: 73px;
+}
+
+.ftr1_5 img,
+.ftr3 img,
+.ftr2_4 img,
+.ftr7_6 img{
+  width: 265px;
+  margin: 5px;
+}
+
+.ftr1_5 img:last-child{
+  width: 210px;
+  margin: 0 0 0 60px;
+}
+
+.ftr2_4 img:first-child{
+  height: 180px;
+}
+
+.ftr2_4 img:last-child{
+  height: 180px;
+}
+
+.ftr7_6 img:first-child{
+  height: 120px;
+}
+
+.ftr7_6 img:last-child{
+  height: 240px;
+}
