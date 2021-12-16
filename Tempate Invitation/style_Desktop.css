@@ -6,7 +6,7 @@
   font-family: 'Poppins', sans-serif;
 }
 
-/* ------ Nav Bar ------ */
+ /* ====== Nav Bar ======  */
 .navbar{
   display: flex;
   padding-top: 20px;
@@ -48,12 +48,79 @@ li a{
   border-radius: 5px;
 }
 
-/* ------ Images ------ */
+/* ====== The Referral Community ====== */
+.title_community{
+  padding: 20px 0;
+}
+
+.title_community h1{
+  font-weight: 500;
+  font-size: 25px;
+}
+
+.title_community p{
+  font-size: 15px;
+}
+
+.referral{
+  display: flex;
+  background-color: #0A0A0A;
+  color: white;
+  height: 250px;
+  margin: 10px 60px 80px 60px;
+  padding: 10px;
+}
+
+.first_part{
+  padding: 20px;
+}
+
+.find_promo{
+  display: flex;
+  position: relative;
+}
+
+.find_promo input{
+  background-color: white;
+  width: 300px;
+  padding: 10px 0 10px 40px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 15px;
+}
+
+
+.find_promo::before{
+  position: absolute;
+  content : '\1F50D';
+  left: 10px;
+  top: 10px;
+}
+
+.find_promo button{
+  background: rgb(249,160,36);
+  background: linear-gradient(90deg, rgb(248, 154, 22) 0%, rgb(150, 27, 231) 100%);
+  color: white;
+  width: 200px;
+  padding: 10px;
+  border-radius: 5px;
+  border: none;
+}
+
+.second_part img{
+  width: 400px;
+  margin-left: 150px;
+  transform: translateY(-30px);
+}
+
+
+
+/* ====== Images ====== */
 .img{
   display: flex;
   width: 100%;
   justify-content: space-between;
-  padding: 20px 100px;
+  padding: 20px 60px;
 
 }
 
@@ -63,11 +130,11 @@ li a{
 .com4,
 .com5, 
 .com6{
-  width: 90px;
-  height: 30px;
+  width: 100px;
+  height: 40px;
 }
 
-/* ------ Section Generale Get Cash Rewards ------ */
+/* ====== Get Cash Rewards ====== */
 
 
 /* ------ 1- Images Left && Right ------ */
@@ -96,14 +163,14 @@ padding: 10px 40px;
 
 .content .p{
   text-align: center;
-  padding-top: 50px;
+  padding-top: 40px;
   font-size: 25px;
 }
 
 .content .post,
 .earn,
 .grow{
-  padding-top: 50px;
+  padding-top: 40px;
   font-size: 10px;
 }
 
@@ -127,6 +194,23 @@ padding: 10px 40px;
   font-size: 12px;
 }
 
+.icon1 i{
+  background: rgb(249,160,36);
+  background: linear-gradient(90deg, rgb(248, 154, 22) 0%, rgb(150, 27, 231) 100%);
+  color: white;
+  padding: 3px;
+  border-radius: 50px;
+}
+
+.icon1_content p{
+  margin-left: 10px;
+}
+
+.icon1_content{
+  display: flex;
+  align-items: flex-end;
+}
+
 /* ------ 3- Button ------ */
 .bot{
   border: none;
@@ -134,6 +218,7 @@ padding: 10px 40px;
   background: linear-gradient(90deg, rgb(248, 154, 22) 0%, rgb(150, 27, 231) 100%);
   color: white;
   padding: 10px;
+  border-radius: 5px;
 }
 
 .sbt{
@@ -141,14 +226,31 @@ padding: 10px 40px;
   padding-top: 35px;
 }
 
-/* ------ Post Links ------ */
+/* ===== Post Links ====== */
 .post_links{
   display: flex;
   background-color: #0A0A0A;
   color: white;
-  height: 250px;
+  height: 270px;
   margin: 60px 70px;
-  padding: 1àpx;
+  padding: 10px;
+}
+
+.icon2 i{
+  font-size: 10px;
+  background-color: white;
+  color: black;
+  padding: 3px;
+  border-radius: 50px;
+}
+
+.icon2_links p{
+  margin-left: 10px;
+}
+
+.icon2_links{
+  display: flex;
+  align-items: flex-end;
 }
 
 .part1{
@@ -160,7 +262,12 @@ padding: 10px 40px;
 }
 
 .title h1{
+  font-weight: 500;
   font-size: 27px;
+}
+
+#img{
+  width: 15px;
 }
 
 .submit button:first-child{
@@ -178,7 +285,7 @@ padding: 10px 40px;
   color: white;
   width: 200px;
   padding: 10px;
-  border-radius: 3px;
+  border-radius: 5px;
   border: none;
 }
 
@@ -188,7 +295,7 @@ padding: 10px 40px;
   transform: translateY(-50px);
 }
 
-/* ------ Grid De Images ------ */
+/* ====== Images Grid ====== */
 
 .grid{
   display: grid;
@@ -224,4 +331,92 @@ padding: 10px 40px;
 
 .ftr7_6 img:last-child{
   height: 240px;
+}
+
+/* ====== Footer ====== */
+
+.footer{
+  display: flex;
+  background-color: #0A0A0A;
+  color: white;
+  height: 200px;
+  margin: 60px 70px 10px   70px;
+
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.second_content_social{
+  width: 60%;
+
+}
+
+.social{
+  font-size: 12px;
+  width: 40%;
+  padding: 50px;
+}
+
+.social ul{
+  list-style-type: none;
+  display: flex;
+  margin-top: 15px;
+}
+
+.social ul li{
+  width: 30px;
+  height: 30px;
+  background-color: white;
+  margin: 0 10px;
+  color: #0A0A0A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social ul li i{
+  font-size: 15px;
+}
+
+.content_footer{
+  display: flex;
+  width: 100%;
+}
+
+.part1_ftr,
+.part2_ftr,
+.part3_ftr,
+.part4_ftr{
+  padding: 30px 0 0 80px;
+  transform: translateX(40px);
+}
+
+.part1_ftr h4,
+.part2_ftr h4,
+.part3_ftr h4,
+.part4_ftr h4{
+  font-size: 18px;
+  font-weight: 400;
+  margin-bottom: 8px;
+}
+
+.part1_ftr p,
+.part2_ftr p,
+.part3_ftr p,
+.part4_ftr p{
+  font-size: 10px;
+  font-weight: 400;
+}
+
+
+.content_footer .part2_ftr{
+  width: 20%;
+}
+
+.text{
+  font-size: 12px;
+  text-align: center;
+  color: #3D3D3D;
+  margin-bottom: 10px;
 }
