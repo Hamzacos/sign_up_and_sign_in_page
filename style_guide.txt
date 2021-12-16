@@ -1,0 +1,29 @@
+color:
+
+ 	--black rgba(0, 0, 0, 1);
+  	--cod-gray rgba(12, 12, 12, 1);
+  	--blue-jeans rgba(108, 168, 246, 1);
+  	--dove-gray rgba(112, 112, 112, 1);
+  	--silver-chalice rgba(171, 171, 171, 1);
+  	--desert-storm rgba(248, 248, 248, 1);
+ 	--white rgba(255, 255, 255, 1);
+
+Font size:
+
+ 	--font-size-s 8px;
+  	--font-size-m 9px;
+  	--font-size-l 10px;
+  	--font-size-xl 11px;
+  	--font-size-xxl 15px;
+  	--font-size-xxxl 24px;
+  	--font-size-xxxxl 25px;
+
+Font family:
+
+ 	 --font-family-poppins 
+   	"Poppins";
+
+Affichage:
+
+ 	mobile: 375px;
+	DESKTOP:1920px.
