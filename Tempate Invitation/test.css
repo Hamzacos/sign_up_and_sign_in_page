@@ -70,6 +70,8 @@ h3{
     font-size: 22px;
 }
 .brain{
+    text-decoration: none;
+    color: #6ca8f6;
     padding-left: 100px;
     padding-bottom: 60px;
 }
