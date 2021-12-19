@@ -1,0 +1,199 @@
+*{
+    box-sizing: border-box;
+    font-family: Arial, Helvetica, sans-serif;
+    /*font-size: 9px;*/
+    margin: 0px;
+    padding: 0px;  
+}
+.main{
+    display: flex;
+    flex-direction: column;
+}
+body {
+    background: linear-gradient(#FB7B30,#A831A5);
+    font-size: 9px;
+}
+h1{
+    text-align: center;
+    padding: 30px;
+    font-size: 30px;
+    color: white;
+}
+.account{
+    width: 100px;
+    height: 100px;
+    text-align: center;
+    margin: auto;
+    display: flex;
+    padding: 10px;
+}
+img{
+    
+}
+h2{
+        padding-left:20px;
+        color: white;
+        font-size: 30px;
+}
+.centre{
+    display: flex;
+    justify-content: center;
+}
+.formulaire{
+    border: black solid 2px;
+    display: inline-block;
+    width: 335px;
+    border-radius: 5px;
+    padding-left: 20px;
+    background-color: black;
+    margin-bottom: 50px;
+}
+#username{
+    width: 290px;
+    height: 31px;
+    border-radius: 5px;
+}
+#pwd{
+    width: 290px;
+    height: 31px;
+    border-radius: 5px;
+}
+label {
+    display: inline-block;
+    text-align: right;
+    color: white;
+  }
+h3{
+    padding-top: 10px;
+    text-align: center;
+    color: white;
+    font-size: 22px;
+}
+.brain{
+    padding-left: 100px;
+    padding-bottom: 60px;
+}
+.remember{
+    display: flex;
+    justify-content: space-between;
+}
+button{
+    width: 100px;
+    height: 23px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    background: linear-gradient(#FB7B30,#A831A5);
+}
+.button{
+    display: block;
+    text-align: center;
+}
+.fin{
+    border: solid black 2px;
+    width: auto;
+    height: auto;
+    background-color: black;
+}
+p{
+    width: 221px;
+    color: white;
+}
+.footer_dark{
+    display: flex;
+    padding-bottom: 5px;
+}
+.footer-classic p{
+    width: auto;
+    height: auto;
+    color: #BDBDBD;
+    padding-bottom: 5px;
+}
+i{
+    padding-top: 5px;
+    height: 30px;
+    width: 30px;
+   text-align: center;
+   padding-left: 30px;
+   color: white;
+   font-size: 24px;
+}
+.Forgot{
+    display: none;
+}
+.list{
+    display: none;
+}
+@media only screen and (min-width: 600px){
+    .Forgot{
+        display: block;
+        width: 720px;
+        height: 500px;
+    }
+    .account{
+        display: none;   
+    }
+    .main{
+        display: flex;
+        flex-direction: row;
+    }
+
+    .tnizz{
+        width: 65%;
+    }
+    .centre{
+        width:35%;
+    }
+    .formulaire{
+        width: 700px;
+        padding-top: 20px;
+        height: auto;
+        margin-bottom: 0px;
+    }
+    button{
+        width: 223px;
+        height: 52px;
+        border-radius: 5px;
+        text-align: center;
+        color: white;
+        background: linear-gradient(#FB7B30,#A831A5);
+        font-size: 20px;
+    }
+    #username{
+        width: 350px;
+        height: 50px;
+        border-radius: 5px;
+    }
+    #pwd{
+        width: 350px;
+        height: 50px;
+        border-radius: 5px;
+    }
+    label{
+          font-size: 20px;
+    }
+    .button a {
+        padding-top: 30px;
+    }
+    a{
+        font-size: 15px;
+    }
+    i{
+        padding-top: 5px;
+        height: 60px;
+        width: 60px;
+       text-align: left;
+       padding-left: 30px;
+       color: white;
+    }
+    .footer_dark p{
+        font-size: 13px;
+    }
+    .footer-classic p{
+        display: none;
+    }
+    .footer_dark{
+        display: flex;
+        flex-direction: row;
+    }
+   }
