@@ -1,0 +1,448 @@
+:root{
+ 	--black:rgba(0, 0, 0, 1);
+  	--cod-gray:rgba(12, 12, 12, 1);
+  	--blue-jeans:rgba(108, 168, 246, 1);
+  	--dove-gray:rgba(112, 112, 112, 1);
+  	--silver-chalice:rgba(171, 171, 171, 1);
+  	--desert-storm:rgba(248, 248, 248, 1);
+ 	--white:rgba(255, 255, 255, 1);
+}
+
+
+*{
+    font-family: poppins;
+    font-weight: 600;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body{
+    background:linear-gradient(#FB7B30,#A831A5) ;
+}
+
+.container{
+    margin: 114px 20px;
+}
+
+.description{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+}
+
+.text1{
+    width: 350;
+    max-width: 500px;
+    text-align: center;
+    padding: 20px;
+}
+
+.img_desktop{
+    display: none;
+} 
+
+.img_mobile{
+    width: 111px;
+    max-width: 250px;
+    margin-bottom: 20px;
+} 
+
+.tex{
+    word-wrap: break-word;
+    display: flex;
+    flex-direction: column;
+    align-content: center;
+}
+
+.C_problems{
+    font-size: 25px;
+    margin-bottom: 12px;
+}
+
+.text_problems{
+    font-size: 15px;
+    width: 273px;
+    align-self: center;
+}
+
+.Forgot{
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    background-color: black;
+    color: white;
+    padding: 10px;
+    border-radius: 5px;
+}
+
+.Form_title{
+    font-size: 22px;
+    text-align: center;
+    margin-bottom: 27px;
+}
+
+form{
+    padding: 10px;
+    max-width: 350px;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+label{
+    font-size: 9px;
+    align-self: flex-start;
+    margin-bottom: 2.8px;
+}
+
+.email{
+    font-size: 8px;
+    height: 31px;
+    max-width: 450px;
+    margin-bottom: 24px;
+    padding-left: 9.2px;
+    color: var(--dove-gray);
+}
+
+.submit{
+    font-size: 10px;
+    align-self: center;
+    width: 101px;
+    height: 23px;
+    margin-bottom: 48px;
+    background:linear-gradient(#FB7B30,#A831A5);
+    color: white;
+    border: none;
+    border-radius: 2px;
+}
+
+.or{
+    font-size: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 6.7px;
+    margin-bottom: 12px;
+    padding: 0px 10px;
+}
+
+.OR{
+    font-size: 10px;
+}
+
+.hr1{
+    width: 130.8px;
+    border-top: 2px solid white;
+
+}
+
+.hr2{
+    width: 130.8px;
+    border-top: 2px solid white;
+}
+
+.sign{
+    align-self: center;
+    width: 101px;
+    height: 23px;
+    margin-bottom: 22px;
+    background:rgba(212, 202, 202, 0);
+    backface-visibility: 0;
+    border: none;
+}
+
+.sign_up{
+    text-decoration: none;
+    text-align: center;
+    color:var(--blue-jeans) ;
+}
+
+.back{
+    text-decoration: none;
+    align-self: center;
+    color: #B2B2B2;
+    font-size: 10px;
+}
+
+footer{
+    background-color: black;
+    color: white;
+    padding: 20px;
+}
+
+.invit{
+    font-size: 10px;
+    font-weight: 500;
+    width: 270px;
+    margin-bottom: 10px;
+}
+
+.logo{
+    display: flex;
+    gap: 5px;
+}
+
+.liste{
+    display: none;
+}
+
+@media only screen and (min-width: 600px) {
+    *{
+        font-size: 1rem;
+    }
+    body{
+        background: white;
+    }
+
+    .container{
+        margin: 0px 40px;
+    }
+
+    .description{
+        flex-direction: row;
+        align-items: stretch;
+        width: 100%;
+    }
+
+    .img_desktop{
+        display: block;
+        width: 100%;
+        max-width: 900px;
+    } 
+    
+    .img_mobile{
+        display: none;
+    } 
+
+    .text1{
+        width: 65%;
+        max-width: 900px;
+        background: linear-gradient(#FB7B30,#A831A5);
+        padding: 50px;
+    }
+
+    .C_problems{
+        font-size: 1.4rem;
+    }
+
+    .text_problems{
+        width: 250px;
+        font-size: .8rem;
+        margin-bottom: 20px;
+    }
+
+    .Forgot{
+        width: 35%;
+        border-radius: 0px;
+        padding-top:50px ;
+    }
+
+    label{
+        font-size: 0.5rem;
+    }
+    
+    .email{
+        font-size: 0.5rem;
+        margin-bottom: 48px;
+    }
+    
+    .submit{
+        font-size: 0.6rem;
+    }
+    
+    .OR{
+        font-size: 0.7rem;
+    }
+
+    .hr1{
+        width: 300px;
+    }
+    
+    .hr2{
+        width: 300px;
+    }
+
+    .sign_up{
+        font-size: 0.75rem;
+    }
+    
+    .back{
+        font-size: 0.7rem;
+    }
+
+    footer{
+        margin: 0px 40px;
+        /* max-width: 1640px; */
+        display: flex;
+        /* align-items: center; */
+    }
+
+    .buttom{
+        width: 66%;
+        padding: 20px;
+    }
+
+    .invit{
+            width: 200px;
+            font-size:0.5rem ;
+    }
+
+    .liste{
+        width: 34%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        padding: 0px;
+       
+    }
+
+    ul{
+        list-style: none;
+    }
+
+    li{
+        font-size: 0.5rem;
+        font-weight: 500;
+    }
+    
+    .l_titre{
+        font-size: 0.55rem;
+        font-weight: 600;
+        margin-bottom: 5px;
+    }
+
+    span{
+        font-size: 0.55rem;
+    }
+
+  }
+
+
+
+@media only screen and (min-width: 900px) {
+    *{
+        font-size: 1.2rem;
+    }
+    body{
+        background: white;
+    }
+
+    .container{
+        margin: 0px 50px;
+    }
+
+    .description{
+        flex-direction: row;
+        width: 100%;
+    }
+
+    .img_mobile{
+        display: none;
+    } 
+
+    .text1{
+        width: 65%;
+        max-width: 1920px;
+        background: linear-gradient(#FB7B30,#A831A5);
+        padding: 50px;
+    }
+
+    .tex{
+        word-wrap: break-word;
+        display: flex;
+        flex-direction: column;
+        align-content: center;
+        
+    }
+
+    .text_problems{
+        width: 273px;
+        align-self: center;
+        margin-bottom: 20px;
+    }
+
+    .Forgot{
+        width: 35%;
+        border-radius: 0px;
+        padding-top:50px ;
+        max-width: 1920px;
+    }
+
+    label{
+        font-size: 0.5rem;
+    }
+    
+    .email{
+        font-size: 0.5rem;
+        margin-bottom: 48px;
+    }
+    
+    .submit{
+        font-size: 0.6rem;
+    }
+    
+    .OR{
+        font-size: 0.7rem;
+    }
+
+    .hr1{
+        width: 300px;
+    }
+    
+    .hr2{
+        width: 300px;
+    }
+
+    .sign_up{
+        font-size: 0.75rem;
+    }
+    
+    .back{
+        font-size: 0.7rem;
+    }
+
+    footer{
+        margin: 0px 50px;
+        max-width: 1640px;
+        display: flex;
+    }
+
+    .buttom{
+        width: 66%;
+        padding: 20px;
+    }
+
+    .invit{
+        width: 260px;
+}
+
+    .liste{
+        width: 34%;
+        display: flex;
+        justify-content: center;
+        justify-content: space-between;
+        padding: 0 20px;
+       
+    }
+
+    ul{
+        list-style: none;
+    }
+    li{
+        font-size: 0.5rem;
+        font-weight: 500;
+    }
+    
+    .l_titre{
+        font-size: 0.55rem;
+        font-weight: 600;
+        margin-bottom: 7px;
+    }
+
+    span{
+        font-size: 0.6rem;
+    }
+
+  }
