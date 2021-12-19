@@ -27,9 +27,6 @@ h1{
     display: flex;
     padding: 10px;
 }
-img{
-    
-}
 h2{
         padding-left:20px;
         color: white;
@@ -90,6 +87,7 @@ button{
 .button{
     display: block;
     text-align: center;
+    margin-bottom: 20px;
 }
 .fin{
     border: solid black 2px;
@@ -126,6 +124,12 @@ i{
 .list{
     display: none;
 }
+
+.retour{
+    margin-top: 10px;
+}
+
+
 @media only screen and (min-width: 600px){
     .Forgot{
         display: block;
