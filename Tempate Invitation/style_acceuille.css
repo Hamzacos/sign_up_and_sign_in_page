@@ -1,0 +1,1479 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;500&family=Libre+Baskerville:wght@700&family=Poppins:ital,wght@0,200;0,400;0,600;1,200;1,400&display=swap');
+*{
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+  font-family: 'Poppins', sans-serif;
+}
+
+main{
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+ /* ====== Nav Bar ======  */
+ .navbar{
+  display: flex;
+  padding-top: 30px;
+  justify-content: space-between;
+  font-size: 20px;
+  align-items: center;
+}
+
+nav p{
+  font-weight: 700;
+  margin-left: 30px;
+}
+
+nav ul{
+  display: none;
+}
+
+.btn{
+  display: flex;
+  margin-right: 20px;
+}
+
+.btn .login {
+  margin-right: 10px;
+  border: none;
+  background: none;
+}
+
+.btn .signup a{
+  text-decoration: none;
+  color: white;
+  font-size: 15px;
+}
+.btn .login a{ 
+  font-size: 15px;
+  color: black;
+  text-decoration: none;
+} 
+
+.btn .signup{
+  border: none;
+  background: black;
+  color: white;
+  padding: 6px;
+  border-radius: 5px;
+}
+
+.name_generale{
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+}
+
+.menu_nav a{
+  color: #0A0A0A;
+  margin-right: 10px;
+}
+
+
+.content_menu_phone{
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100vh;
+  background-color: black;
+  display: none;
+  z-index: 9;
+  text-align: center;
+}
+
+.content_menu_phone i{
+  position: absolute;
+  top: 20px;
+  right:  20px;
+  font-size: 35px;
+  color: rgb(255, 255, 255);
+}
+
+.content_menu_phone ul{
+  margin-top: 50px;
+}
+
+.content_menu_phone ul li{
+  margin: 20px 0;
+}
+
+.content_menu_phone ul li a{
+  font-size: 20px;
+  text-decoration: none;
+  color: #ffffff;
+}
+
+.add{
+  display: block;
+}
+
+/* ====== The Referral Community ====== */
+
+.referral{
+  display: flex;
+  justify-content: space-between;
+  background-color: #0A0A0A;
+  color: white;
+  margin-top: 20px;
+  padding: 20px 10px 40px 30px;
+}
+
+.title_community h1{
+  padding-bottom: 10px;
+  font-size: 15px;
+  font-weight: 900;
+}
+
+.title_community p{
+  padding-bottom: 10px;
+  font-size: 8px;
+}
+
+.find_promo{
+  display: flex;
+  position: absolute;
+}
+
+.find_promo input{
+  background-color: white;
+  padding: 2px 0 4px 25px;
+  width: 110px;
+  border: none;
+  border-radius: 5px;
+  margin-right: 10px;
+}
+
+.find_promo input::placeholder{
+  font-size: 8px;
+  font-weight: 500;
+}
+
+
+.find_promo::before{
+  font-size: 10px;
+  position: absolute;
+  content : '\1F50D';
+  left: 7px;
+  top: 7px;
+}
+
+.find_promo button{
+  background: rgb(249,160,36);
+  background: linear-gradient(90deg, rgb(248, 154, 22) 0%, rgb(150, 27, 231) 100%);
+  color: white;
+  width: 100px;
+  border-radius: 5px;
+  border: none;
+  font-size: 8px;
+}
+
+.second_part img{
+  width: 80px;
+  float: right;
+  transform: translateY(50px);
+}
+
+/* ====== Images ======  */
+
+.img{
+  align-items: center;
+  width: 100%;
+  position: relative;
+  padding: 20px 0 0 0;
+}
+
+.first_img,
+.second_img,
+.third_img{
+  display: flex;
+  flex-direction: row;
+}
+
+.com1,
+.com2,
+.com3,
+.com4,
+.com5, 
+.com6{
+  width: 100px;
+  height: auto;
+  margin: 30px;
+}
+
+/* ====== Get Cash Rewards ====== */
+
+.Cash_Rewads{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+/* ------ 1- Images Left && Right ------ */
+.right img,
+.left img{
+  width: 280px;
+  height: auto;
+  margin: 30px 0 0 40px;
+  text-align: center;
+}
+
+/* ------ 2- Content De Center Des Images ------ */
+
+.content{
+  margin-left: 30px;
+}
+
+.content .p{
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 40px;
+  font-size: 20px;
+}
+
+.content img{
+ width: 25px;
+  height: auto;
+  margin-left: 10px;
+} 
+
+.content .post,
+.earn,
+.grow{
+  padding-top: 40px;
+  font-size: 10px;
+}
+
+.post p:first-child,
+.grow p:first-child,
+.earn p:first-child{
+  font-size: 18px;
+}
+
+.grow p:last-child,
+.post p:last-child,
+.earn p:last-child{
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+.icon1 i{
+  background: rgb(249,160,36);
+  background: linear-gradient(90deg, rgb(248, 154, 22) 0%, rgb(150, 27, 231) 100%);
+  color: white;
+  padding: 3px;
+  border-radius: 50px;
+  font-size: 8px;
+}
+
+.icon1_content{
+  display: flex;
+  align-items: flex-end;
+}
+
+.icon1_content p{
+  margin-left: 10px;
+}
+
+
+/* ------ 3- Button ------ */
+
+.sbt{
+  text-align: center;
+  padding-top: 35px;
+}
+
+.bot{
+  border: none;
+  background: rgb(249,160,36);
+  background: linear-gradient(90deg, rgb(248, 154, 22) 0%, rgb(150, 27, 231) 100%);
+  color: white;
+  padding: 10px;
+  border-radius: 5px;
+}
+
+
+/* ===== Post Links ====== */
+
+.post_links{
+  display: flex;
+  justify-content: space-between;
+  background-color: #0A0A0A;
+  color: white;
+  margin-top: 20px;
+}
+
+.part1{
+  padding: 20px;
+}
+
+.title{
+  padding: 15px 0;
+}
+
+.title h1{
+  font-weight: 500;
+  font-size: 15px;
+}
+
+.icon2_links{
+  font-size: 10px;
+  margin-left: 7px;
+  display: flex;
+}
+
+.icon2_links p{
+  margin-left: 5px;
+}
+
+.icon2 i{
+  font-size: 7px;
+  background-color: white;
+  color: black;
+  padding: 3px;
+  border-radius: 50px;
+}
+
+#img{
+  width: 10px;
+}
+
+.submit{
+  display: flex;
+  text-align: center;
+}
+
+.submit button:first-child{
+  background-color: white;
+  width: 150px;
+  padding: 7px;
+  border-radius: 3px;
+  border: none;
+  margin-right: 10px;
+  font-size: 10px;
+  display: flex;
+  justify-content: center;
+}
+
+.submit button:first-child img{
+  margin-right: 10px;
+}
+
+
+#google{
+  width: 15px;
+}
+
+.submit button:last-child{
+  background: rgb(249,160,36);
+  background: linear-gradient(90deg, rgb(248, 154, 22) 0%, rgb(150, 27, 231) 100%);
+  color: white;
+  width: 100px;
+  border-radius: 5px;
+  font-size: 10px;
+  border: none;
+}
+
+.part2 img{
+  width: 70px;
+  float: right;
+  margin-right: 30px;
+  transform: translateY(70px);
+} 
+
+/* ====== Images Grid ====== */
+
+.grid{
+  margin-top: 30px;
+  padding: 5px;
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  grid-template-rows: 0.5fr 0.5fr;
+  grid-gap: 10px;
+}
+
+  .ftr1_5 img{
+    width: 160px;
+  }
+  
+  .ftr3 img{
+    width: 140px;
+  }
+  
+  .ftr2_4 img{
+    width:160px;
+  }  
+
+  .ftr7_6 img{
+    width: 140px;
+  } 
+
+/* ====== Footer ====== */
+
+.footer{
+  display: flex;
+  background-color: #0A0A0A;
+  color: white;
+  margin-top: 30px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+}
+
+.social{
+  font-size: 8px;
+  padding: 20px;
+}
+
+.social ul{
+  list-style-type: none;
+  display: flex;
+  margin-top: 15px;
+}
+
+.social ul li{
+  width: 20px;
+  height: 20px;
+  background-color: white;
+  margin: 0 5px;
+  color: #0A0A0A;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.social ul li i{
+  font-size: 10px;
+}
+
+
+.second_content_social{
+  display: none;
+}
+
+
+.text{
+  font-size: 8px;
+  text-align: center;
+  color: #3D3D3D;
+  padding: 12px;
+}
+
+@media only screen and (min-width: 240px ) and (max-width: 399px){
+   /* ====== Nav Bar ======  */
+ .navbar{
+  font-size: 10px;
+}
+
+.btn .login a{ 
+  font-size: 10px;
+} 
+.btn .signup{
+  padding: 4px;
+}
+.btn .signup a{
+  font-size: 10px;
+}
+
+.menu_nav a{
+  font-size: 20px;
+}
+
+.referral{
+  padding: 20px 10px 80px 30px;
+}
+
+.find_promo{
+  display: flex;
+  flex-direction: column;
+}
+
+.find_promo input{
+  width: 180px;
+  margin-bottom: 10px;
+}
+
+.find_promo button{
+  width: 180px;
+  padding: 8px;
+}
+
+  .right img,
+  .left img{
+    width: 140px;
+  }
+
+  .img{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .title h1{
+    font-weight: 600;
+    font-size: 12px;
+  }
+
+  .submit{
+    display: flex;
+    flex-direction: column;
+  }
+  .submit button:first-child{
+    width: 180px;
+    font-size: 12px;
+    padding: 8px;
+    margin-bottom: 7px;
+  }
+
+  #google{
+    width: 15px;
+  }
+
+  .submit button:last-child{
+    width: 180px;
+    font-size: 12px;
+    padding: 8px;
+  }
+
+
+
+  .part2 img,
+  .second_part img{
+    display: none;
+  }
+
+  .grid{
+    margin-top: 6px;
+    padding: 2px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+  }
+
+  .ftr1_5 img{
+    width: 150px;
+  }
+
+  .ftr1_5{
+    display: flex;
+    flex-direction: column;
+  } 
+  .ftr1_5 img:first-child{
+    width: 240px;
+    margin-bottom: 10px;
+  } 
+  
+  .ftr1_5 img:last-child{
+    width: 240px;
+  }
+   
+  
+  .ftr3 img{
+    width: 240px;
+  }
+  
+  .ftr2_4 img{
+    width:120px;
+  }  
+
+  .ftr7_6{
+    display: flex;
+    flex-direction: column;
+  } 
+  .ftr7_6 img:first-child{
+    width: 240px;
+    margin-bottom: 10px;
+  } 
+  
+  .ftr7_6 img:last-child{
+    width: 240px;
+    margin-bottom: 10px;
+  } 
+
+}
+
+
+/* ========== Media De Tablette 500px ========== */
+@media screen and (min-width: 500px) {
+
+  /* ====== The Referral Community ====== */
+  .referral{
+    padding-bottom: 50px;
+  }
+  
+  .title_community h1{
+    font-size: 20px;
+  }
+
+  .title_community p{
+    padding-bottom: 10px;
+    font-size: 10px;
+  }
+
+  .find_promo input{
+    width: 150px;
+    padding: 4px 0 5px 25px;
+  }
+
+  .find_promo input::placeholder{
+    font-size: 10px;
+    font-weight: 500;
+  }
+
+  .find_promo button{
+    width: 130px;
+    font-size: 10px;
+  }
+
+  .second_part img{
+    width: 140px;
+    float: right;
+    transform: translateY(80px);
+  }
+
+
+  /* ===== Post Links ====== */
+  .title h1{
+    font-weight: 500;
+    font-size: 20px;
+  }
+
+  .submit button:first-child{
+    width: 180px;
+  }
+
+  .submit button:last-child{
+    width: 120px;
+    font-size: 10px;
+  }
+
+  .part2 img{
+    width: 120px;
+    transform: translateY(70px);
+  } 
+
+  /* ====== Images Grid ====== */
+
+  .ftr1_5 img,
+  .ftr2_4 img{
+    width: 250px;
+  }
+  
+  .ftr3 img,
+  .ftr7_6 img{
+    width: 220px;
+  }
+  
+
+    /* ====== Footer ====== */
+  .social{
+    font-size: 12px;
+    padding: 20px;
+  }
+  
+}
+
+/* ========== Media De Tablette 600px ========== */
+@media screen and (min-width: 600px) {
+  /* ====== Nav Bar ======  */
+   .navbar{
+     font-size: 25px;
+   }
+ 
+   .btn .signup{
+     padding: 10px;
+   }
+ 
+   /* ====== The Referral Community ====== */
+ 
+   .referral{
+     margin-bottom: 40px;
+   }
+ 
+   .title_community h1{
+     font-size: 23px;
+   }
+   
+   .title_community p{
+    padding-bottom: 10px;
+     font-size: 12px;
+   }
+
+   .find_promo input{
+     width: 200px;
+    padding: 8px 0 9px 35px;
+  }
+
+  .find_promo input::placeholder{
+    font-size: 12px;
+  }
+
+  .find_promo::before{
+    font-size: 12px;
+    left: 10px;
+    top: 10px;
+  }
+
+  .find_promo button{
+    width: 160px;
+    font-size: 12px;
+  }
+  
+   .second_part img{
+    width: 170px;
+    transform: translateY(70px);
+  }
+
+  /* ====== Images ======  */
+  
+  .first_img,
+  .second_img,
+  .third_img{
+    display: flex;
+    align-items: center;
+  }
+
+  .com1,
+  .com2,
+  .com3,
+  .com4,
+  .com5, 
+  .com6{
+    width: 120px;
+  }
+
+  /* ====== Get Cash Rewards ====== */
+  
+  /* ------ 2- Content De Center Des Images ------ */
+  .content .p{
+    font-size: 30px;
+  }
+
+  .content img{
+    width: 30px;
+    height: auto;
+    margin-left: 10px;
+  }
+
+  .post p:first-child,
+  .grow p:first-child,
+  .earn p:first-child{
+    font-size: 30px;
+  }
+
+  .grow p:last-child,
+  .post p:last-child,
+  .earn p:last-child{
+    font-size: 15px;
+  }
+  
+  .icon1 i{
+    font-size: 10px;
+    padding: 5px;
+  }
+
+   /* ===== Post Links ====== */
+   .title h1{
+    font-size: 20px;
+  }
+
+  .submit button:first-child{
+    width: 180px;
+  }
+
+  .submit button:last-child{
+    width: 120px;
+    font-size: 10px;
+  }
+
+  .part2 img{
+    width: 180px;
+    transform: translateY(70px);
+  } 
+
+  /* ====== Images Grid ====== */
+  .ftr1_5 img,
+  .ftr2_4 img{
+    width: 290px;
+
+  }
+  
+  .ftr3 img,
+  .ftr7_6 img{
+    width: 290px;
+  }
+
+  /* ====== Footer ====== */
+  .social{
+    font-size: 12px;
+    padding: 25px;
+  }
+
+  .social ul li{
+    width: 30px;
+    height: 30px;
+  }
+  
+  .social ul li i{
+    font-size: 15px;
+  }
+
+  .text{
+    font-size: 10px;
+  }
+}
+
+
+/* ========== Media De Tablette 700px ========== */
+@media screen and (min-width: 700px){
+
+   /* ====== Nav Bar ======  */
+   .navbar{
+     font-size: 12px;
+     display: flex;
+     align-items: center;
+   }
+
+    nav,
+    nav ul{
+      display: flex;
+    }
+  
+    ul li{
+      margin: 0 15px;
+      list-style-type: none;
+    }
+
+    li a{
+      text-decoration: none;
+      color: black;
+    }
+
+    .menu_nav{
+      display: none;
+    }
+
+       /* ====== The Referral Community ====== */
+ 
+    .referral{
+      margin-bottom: 30px;
+    }
+
+    .title_community h1{
+      font-size: 27px;
+    }
+
+    .title_community p{
+      padding-bottom: 25px;
+      font-size: 13px;
+    }
+
+    .second_part img{
+      width: 200px;
+      transform: translateY(70px);
+    } 
+
+    /* ===== Post Links ====== */
+    .title h1{
+      font-size: 25px;
+    }
+
+    .icon2_links{
+      font-size: 15px;
+    }
+
+    .submit button:first-child img{
+      margin-right: 10px;
+    }
+
+    .submit button:first-child{
+      width: 200px;
+      display: flex;
+      justify-content: center;
+      font-size: 13px;
+    }
+    
+    .submit button:last-child{
+      width: 150px;
+      font-size: 13px;
+    }
+
+    .part2 img{
+      width: 220px;
+      transform: translateY(70px);
+    } 
+
+    /* ====== Images Grid ====== */
+
+    .ftr1_5 img,
+    .ftr2_4 img{
+      width: 340px;
+
+    }
+
+    .ftr3 img,
+    .ftr7_6 img{
+      width: 340px;
+    }
+
+    /* ====== Footer ====== */
+    .social{
+      font-size: 14px;
+      padding: 25px;
+    }
+
+    .social ul li{
+      width: 30px;
+      height: 30px;
+    }
+    
+    .social ul li i{
+      font-size: 14px;
+    }
+
+    .text{
+      font-size: 11px;
+    }
+}
+
+/* ========== Media De Tablette 800px ========== */
+
+@media screen and (min-width: 800px){
+   /* ====== Images ======  */
+
+   .com1,
+   .com2,
+   .com3,
+   .com4,
+   .com5, 
+   .com6{
+     width: 70px;
+   }
+
+    /* ====== Get Cash Rewards ====== */
+
+  .Cash_Rewads{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .right img,
+  .left img{
+    width: 240px;
+    margin: 10px 0 0 20px;
+  }
+
+  .content .p{
+    font-size: 15px;
+    font-weight: 600;
+    padding-top: 20px;
+  }
+
+  .content img{
+    width: 20px;
+  } 
+
+  .content .post,
+  .earn,
+  .grow{
+    padding-top: 20px;
+    font-size: 10px;
+  }
+
+  .post p:first-child,
+  .grow p:first-child,
+  .earn p:first-child{
+    font-size: 12px;
+  }
+
+  .grow p:last-child,
+  .post p:last-child,
+  .earn p:last-child{
+    padding-top: 10px;
+    font-size: 10px;
+  }
+
+  .icon1 i{
+    padding: 3px;
+    border-radius: 50px;
+    font-size: 6px;
+  }
+
+  /* ====== Images Grid ====== */
+
+  .grid{
+    margin-top: 30px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+  }
+
+  .ftr1_5 img:first-child{
+    width: 200px;
+  }
+  
+  .ftr1_5 img:last-child{
+    width: 170px;
+    float: right;
+  }
+  
+  .ftr3 img{
+    width: 160px;
+  }
+  
+  .ftr2_4 img{
+    width:220px;
+  }  
+
+  .ftr7_6 img{
+    width: 180px;
+  } 
+
+   /* ====== Footer ====== */
+   .social{
+    font-size: 11px;
+    padding: 25px;
+  }
+
+  .social ul li{
+    width: 20px;
+    height: 20px;
+  }
+  
+  .social ul li i{
+    font-size: 12px;
+  }
+
+   .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+  }
+  
+  .second_content_social{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .part2_ftr h4,
+  .part3_ftr h4,
+  .part4_ftr h4,
+  .part1_ftr h4{
+    font-size: 12px;
+    margin-bottom: 15px;
+  }
+  
+  .part2_ftr p,
+  .part3_ftr p,
+  .part4_ftr p,
+  .part1_ftr p{
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .text{
+    font-size: 12px;
+  }
+
+
+}
+
+
+/* ========== Media De Tablette 900px ========== */
+
+@media screen and (min-width: 900px) {
+/* ====== Nav Bar ======  */
+  .navbar{
+    font-size: 15px;
+  }
+
+/* ====== The Referral Community ====== */
+ 
+  .referral{
+    margin-bottom: 35px;
+  }
+
+  .title_community h1{
+    font-size: 32px;
+  }
+
+  .title_community p{
+    padding-bottom: 28px;
+    font-size: 15px;
+  }
+
+  .second_part img{
+    width: 220px;
+    transform: translateY(70px);
+  } 
+
+  /* ====== Images ======  */
+
+  .com1,
+  .com2,
+  .com3,
+  .com4,
+  .com5, 
+  .com6{
+    width: 80px;
+  }
+
+  /* ====== Get Cash Rewards ====== */
+
+  .Cash_Rewads{
+    display: flex;
+    flex-direction: row;
+  }
+
+  .right img,
+  .left img{
+    width: 240px;
+  }
+
+  .content .p{
+    font-size: 15px;
+    font-weight: 600;
+  }
+
+  .content img{
+    width: 20px;
+  } 
+
+  .post p:first-child,
+  .grow p:first-child,
+  .earn p:first-child{
+    font-size: 12px;
+  }
+
+  .grow p:last-child,
+  .post p:last-child,
+  .earn p:last-child{
+    padding-top: 10px;
+    font-size: 10px;
+  }
+
+  .icon1 i{
+    padding: 3px;
+    border-radius: 50px;
+    font-size: 6px;
+  }
+
+  /* ===== Post Links ====== */ 
+
+  .title h1{
+    font-size: 25px;
+  }
+
+  .part2 img{
+    width: 240px;
+    transform: translateY(60px);
+  } 
+
+  /* ====== Images Grid ====== */
+
+  .grid{
+    margin-top: 30px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr 1fr 1fr;
+    grid-template-rows: 1fr;
+    grid-gap: 10px;
+  }
+
+  .ftr1_5 img:first-child{
+    width: 290px;
+  }
+  
+  .ftr1_5 img:last-child{
+    width: 200px;
+    float: right;
+  }
+  
+  .ftr3 img{
+    width: 160px;
+  }
+  
+  .ftr2_4 img{
+    width:220px;
+  }  
+
+  .ftr7_6 img{
+    width: 180px;
+  } 
+
+  .text{
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 410px ) and (max-width :440px){
+   /* ====== Images Grid ====== */
+   .grid{
+    margin-top: 30px;
+    padding: 5px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+
+  .ftr1_5{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ftr1_5 img:first-child{
+    margin-bottom: 10px;
+    width: 300px;
+  }
+  
+  .ftr1_5 img:last-child{
+    width: 300px;
+  }
+  
+  .ftr3 img{
+    width: 300px;
+  }
+
+  .ftr2_4{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ftr2_4 img:first-child{
+    margin-bottom: 10px;
+    width: 300px;
+  }
+  
+  .ftr2_4 img:last-child{
+    width: 300px;
+  }
+
+  .ftr7_6{
+    display: flex;
+    flex-direction: column;
+  }
+
+  .ftr7_6 img:first-child{
+    margin-bottom: 10px;
+    width: 300px;
+  }
+  
+  .ftr7_6 img:last-child{
+    width: 300px;
+  } 
+
+  .text{
+    font-size: 10px;
+  }
+}
+
+@media only screen and (min-width: 1000px ) and (max-width :1050px){
+
+  /* ====== Images Grid ====== */
+  .ftr1_5 img:first-child{
+    width: 340px;
+  }
+  
+  .ftr1_5 img:last-child{
+    width: 270px;
+  }
+
+  .ftr3 img{
+    width: 200px;
+  }
+
+  .ftr2_4 img{
+    width: 240px;
+  }
+  .ftr7_6 img{
+    width: 200px;
+
+  }
+}
+
+/* ========== Media De Desktop 1240px ========== */
+@media only screen and (min-width: 1150px ) and (max-width :1300px) {
+
+  /* ====== Nav Bar ======  */
+  .navbar{
+    font-size: 20px;
+  }
+
+  /* ====== The Referral Community ====== */
+
+  .title_community h1{  
+    font-size: 40px;
+    font-weight: 600;
+  }
+
+  .title_community p{
+    padding-bottom: 30px;
+    font-size: 20px;
+  }
+
+  .find_promo input{
+    padding: 10px 0 12px 40px;
+    width: 300px;
+    margin-right: 15px;
+  }
+
+  .find_promo input::placeholder{
+    font-size: 14px;
+    font-weight: 500;
+  }
+
+  .find_promo::before{
+    font-size: 15px;
+    left: 14px;
+    top: 9px;
+  }
+
+  .find_promo button{
+    width: 240px;
+    border-radius: 5px;
+    border: none;
+    font-size: 14px;
+  }
+
+  .second_part img{
+    width: 280px;
+    float: right;
+    transform: translateY(80px);
+  }
+
+  /* ====== Images ======  */
+
+  .com1,
+  .com2,
+  .com3,
+  .com4,
+  .com5, 
+  .com6{
+    width: 130px;
+  }
+
+  /* ====== Get Cash Rewards ====== */
+
+  .Cash_Rewads{
+    display: flex;
+    flex-direction: row;
+  }
+
+.grow p:last-child,
+.post p:last-child,
+.earn p:last-child{
+  padding-top: 10px;
+  font-size: 12px;
+}
+
+  /* ===== Post Links ====== */
+  .title h1{
+    font-weight: 600;
+    font-size: 40px;
+    margin-bottom: 10px;
+  }
+
+  .icon2_links{
+    font-size: 16px;
+  }
+  
+  .icon2_links p{
+    margin-left: 12px;
+  }
+  
+  .icon2 i{
+    font-size: 10px;
+  }
+
+  #img{
+    width: 13px;
+  }
+
+  .submit button:first-child{
+    width: 260px;
+    padding: 10px;
+    font-size: 13px;
+  }
+
+  .submit button:last-child{
+    width: 220px;
+    border-radius: 5px;
+    font-size: 13px;
+    border: none;
+  }
+
+  .part2 img{
+    width: 340px;
+    transform: translateY(90px);
+  } 
+
+  /* ====== Images Grid ====== */
+  
+  .grid{
+    margin-top: 30px;
+    padding: 5px;
+    display: grid;
+    grid-template-columns: 1.5fr 0.5fr 1fr 1fr;
+    grid-template-rows: none;
+    grid-gap: 10px;
+  }
+
+  .ftr1_5 img:first-child{
+    width: 345px;
+  }
+  
+  .ftr1_5 img:last-child{
+   width: 270px;
+  }
+  
+  .ftr3 img{
+    width: 240px;
+  }
+  
+  .ftr2_4 img{
+    width: 320px;
+  }  
+
+  .ftr7_6 img{
+    width: 255px;
+  } 
+
+  /* ====== Footer ====== */
+  .footer{
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    grid-template-rows: 1fr ;
+  }
+  
+  .second_content_social{
+    display: flex;
+    justify-content: space-between;
+    padding: 20px;
+  }
+
+  .part2_ftr h4,
+  .part3_ftr h4,
+  .part4_ftr h4,
+  .part1_ftr h4{
+    font-size: 15px;
+    margin-bottom: 15px;
+  }
+  
+  .part2_ftr p,
+  .part3_ftr p,
+  .part4_ftr p,
+  .part1_ftr p{
+    font-size: 12px;
+    margin-bottom: 5px;
+  }
+
+  .text{
+    font-size: 12px;
+  }
+}
