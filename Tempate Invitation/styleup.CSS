@@ -1,0 +1,163 @@
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+body{
+    min-height: 100vh;
+    color: white;
+    background: rgb(253,70,205);
+    background: linear-gradient(0deg, rgba(253,70,205,1), rgba(255,174,0,1));
+    --font-family-poppins:"Poppins";  
+}
+
+.img1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.img1 img{
+    height: auto;
+    width: 100px; 
+    margin: 8px 0;
+}
+h3 {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0 10px 0;
+}
+form {
+    background: black;
+    width: 90%;
+    margin-left: 20px;
+    min-height: 80vh;  
+}
+
+.inputs{
+    display: flex;
+    flex-direction: column;
+    padding: 8px;
+    margin: 15px;
+    
+}
+input {
+    border-radius: 3px;
+    border: none;
+    background-color: #f2f2f2;
+    padding: 5px;
+}
+label{
+   padding: 13px 0;
+}
+.wrap{
+   
+    margin-left: 70px;
+    padding: 10px 0;
+    
+}
+.wrap input{
+    height: 15px;
+    width: 15px;
+    margin: 0 30px;
+    cursor: pointer;    
+}
+#male{
+    margin-left: -30px;
+    padding: 0;
+     
+}
+#female{
+    margin-left: 50px;
+    
+}
+#Male {
+    margin-left: -5px;
+}
+.wrap label{
+    margin-right:  -10px;
+    
+}
+.last{
+    margin: 15px 8px ;
+    
+}
+
+.last input{
+    height: 18px;
+    width: 18px;
+    cursor: pointer;
+
+}
+.Hide {
+    display: none;
+}
+button {
+    border: none;
+    width: 50%;
+    margin-left: 65px;
+    border-radius: 10px;
+    padding: 8px;
+    cursor: pointer;
+    color:white;
+    background: rgb(253,70,205);
+    background: linear-gradient(0deg, rgba(253,70,205,1), rgba(255,174,0,1))
+}
+
+hr {
+    border: 2px solid white;
+    margin-top: 15px;
+    width: 95%;
+    margin-left: 5px;
+        
+}
+.account {
+    display: flex;
+    justify-content: center;
+    padding: 20px 0;
+    font-size: 13px;
+}
+a{
+    padding-left: 7px;
+    margin-top: -2px;
+    font-size: 10px;
+}
+.Root {
+    display: none;
+}
+@media screen and (min-width: 400px) 
+{
+    
+    .Hide {
+        width: auto;
+        color: black;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+    }
+    .Hide img{
+        
+        width: auto;
+        min-height: 100vh;   
+    }
+    .main {
+        display: flex;
+        
+    }
+    }
+    h1 {
+        display: flex;
+        justify-content: center;
+    }
+   .img1{
+    display: none;
+    
+  }
+ form{
+    width: 100%;
+    
+  }
+
+
+    
+
+
